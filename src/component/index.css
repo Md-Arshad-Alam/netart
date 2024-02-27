@@ -138,6 +138,9 @@ footer ul li a {
   footer ul {
     flex-direction: column;
   }
+  section{
+    padding: 0px 10px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1110px) {
