@@ -1,0 +1,153 @@
+/* Header */
+header {
+  /* Add header styles */
+}
+
+/* Container */
+.container {
+  width: 100%;
+  padding: 0 20px;
+  max-width: 1200px; /* Example max-width */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Main Logo */
+.mainlogo {
+  width: 100%;
+  max-width: 500px; /* Example max-width */
+  margin: auto;
+}
+
+.mainlogo img {
+  width: 100%;
+}
+main {
+  padding: 0 15px;
+}
+/* Main Page */
+.mainpage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trophy-img {
+  width: 34.8%; /* Ensure images and content don't overflow */
+}
+
+/* Trophy Image */
+.trophy-img img {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Right Side Content */
+.right {
+  width: 74%;
+}
+.right ul {
+  margin: 20px 38px;
+}
+
+.right .award img {
+  width: 100%;
+}
+
+/* Heading */
+.heading {
+  padding-top: 40px;
+}
+
+/* Motor Image */
+.moter-image {
+  padding: 30px 0;
+  width: 80%;
+  margin: auto;
+  /* Add styles for the motor image */
+}
+.moter-image img {
+  width: 100%;
+}
+main h5 {
+  text-align: center;
+}
+main h5::after {
+  content: "";
+  border-bottom: 2px solid red;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+}
+
+.motersection {
+  position: relative;
+}
+
+section {
+  text-align: center;
+  padding-top: 30px;
+}
+section h4 {
+  margin-bottom: 20px;
+}
+/* Footer */
+footer {
+  background-color: rgb(231, 50, 50);
+  padding: 40px 0px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+  color: white;
+}
+
+footer ul li {
+  /* Add styles for the footer list items */
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+  .mainpage {
+    flex-direction: column;
+  }
+
+  .trophy-img,
+  .right {
+    width: 100%; /* Adjust width for better responsiveness */
+    max-width: none;
+  }
+
+  .mainlogo {
+    max-width: 100%; /* Reset max-width */
+  }
+  .moter-image{
+    width: 100%;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  footer ul {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width)and(max-width: 1200px) {
+    .mainpage{
+        align-items: start;
+    }
+    
+ 
+  .right {
+    width: 100%; /* Adjust width for better responsiveness */
+    max-width: none;
+  }
+}
