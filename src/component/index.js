@@ -56,8 +56,8 @@ const HomePage = () => {
                     <li><i className="fa-solid fa-phone"></i><a href="#">Toll Free 1800 200 1234</a></li>
                     <li><i className="fa-brands fa-facebook"></i><a href="https://www.facebook.com/cripumps">www.facebook.com/cripumps</a></li>
                     <li><i className="fa-solid fa-globe"></i><a href="https://www.crigroups.com/contact-us/">www.crigroups.com</a></li>
-
                 </ul>
+                {/* complete project */}
             </footer>
         </>
     )
