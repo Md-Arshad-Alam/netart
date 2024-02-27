@@ -140,14 +140,14 @@ footer ul li a {
   }
 }
 
-@media screen and (min-width)and(max-width: 1200px) {
-    .mainpage{
+@media screen and (min-width: 769px) and (max-width: 1110px) {
+    .mainpage {
         align-items: start;
     }
-    
- 
-  .right {
-    width: 100%; /* Adjust width for better responsiveness */
-    max-width: none;
-  }
+
+    .right {
+        width: 50%; /* Adjust width for better responsiveness */
+        max-width: none;
+    }
 }
+
